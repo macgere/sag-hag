@@ -2,19 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #8795b1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +13,72 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.crewMember {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(82, 159, 133);
+  padding: 15px;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameInput {
+  height: 20px;
+}
+
+.nameText {
+  font-size: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.rateContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rateInput {
+  height: 20px;
+}
+
+.rateText {
+  font-size: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h3 {
+  font-size: .75em;
+}
+
+.submitBtn {
+  margin-left: 25px;
+  height: 75%;
+}
+
+.tooLowText {
+ color: rgb(243, 140, 67);
+ text-decoration: solid;
+ font-size: 20px;
+ padding-right: 15px;
+ padding-left: 15px;
+}
+
+table {
+  border-style: solid;
+}
+
+tr {
+  border-style: solid;
 }
