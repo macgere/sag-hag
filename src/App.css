@@ -3,12 +3,12 @@
 }
 
 .App-header {
-  background-color: #8795b1;
+  background-image: linear-gradient(to bottom, rgb(250, 139, 139), rgb(176, 218, 255));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -19,7 +19,7 @@
   margin: 10px;
   align-items: center;
   justify-content: center;
-  background-color: rgb(82, 159, 133);
+  background-color: rgba(82, 135, 159, 0.542);
   padding: 15px;
   border-radius: 15px;
 }
@@ -58,6 +58,10 @@
   padding-left: 15px;
 }
 
+h1 {
+  margin: 0%;
+}
+
 h3 {
   font-size: .75em;
 }
@@ -68,17 +72,42 @@ h3 {
 }
 
 .tooLowText {
- color: rgb(243, 140, 67);
+ color: rgb(255, 203, 198);
  text-decoration: solid;
  font-size: 20px;
+ font-weight: 300;
  padding-right: 15px;
  padding-left: 15px;
 }
 
 table {
   border-style: solid;
+  border-radius: 12px;
+  width: 75vw;
+  justify-content: space-between;
 }
 
 tr {
   border-style: solid;
+}
+
+.hourContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hourInput {
+  height: 20px;
+}
+
+.hourText {
+  font-size: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.total {
+  color: rgb(33, 161, 33);
 }
