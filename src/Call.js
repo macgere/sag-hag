@@ -5,7 +5,7 @@ const Call = (props) => {
     const {callTime, setCallTime} = props
     return (
         <div className='callTime'>
-            <h3>Call Time:</h3>
+            <h2>Call Time:</h2>
             <DateTimePicker onChange={setCallTime} value={callTime}/>
         </div>
     )

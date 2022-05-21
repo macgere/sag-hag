@@ -18,10 +18,11 @@
   flex-direction: row;
   margin: 10px;
   align-items: center;
-  justify-content: center;
+  justify-content:space-between;
   background-color: rgba(82, 135, 159, 0.542);
   padding: 15px;
   border-radius: 15px;
+  width: 50%;
 }
 
 .nameContainer {
@@ -50,6 +51,7 @@
 
 .rateInput {
   height: 20px;
+  width: 25%;
 }
 
 .rateText {
@@ -58,12 +60,15 @@
   padding-left: 15px;
 }
 
-h1 {
-  margin: 0%;
+h2 {
+  margin: 0.5%;
+  font-size: 100%;
 }
 
 h3 {
   font-size: .75em;
+  padding: 0.1%;
+  margin: 0.1%;
 }
 
 .submitBtn {
@@ -100,6 +105,7 @@ tr {
 
 .hourInput {
   height: 20px;
+  width: 15%;
 }
 
 .hourText {
@@ -110,4 +116,13 @@ tr {
 
 .total {
   color: rgb(33, 161, 33);
+  padding: none;
+  margin: 0px;
+}
+
+.callTime {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
 }
